@@ -2,7 +2,7 @@
 
 namespace CleanArchitectureDemo.Infrastructure
 {
-    public class Class1
+    public class Context
     {
     }
 }

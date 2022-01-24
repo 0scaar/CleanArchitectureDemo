@@ -2,7 +2,7 @@
 
 namespace CleanArchitectureDemo.Application.UseCases.Customer.Get
 {
-    public class CustomerGetRequest
+    public class CustomerGetRequest : RequestBase
     {
         public Guid Id { get; private set; }
 
@@ -10,5 +10,7 @@ namespace CleanArchitectureDemo.Application.UseCases.Customer.Get
         {
             Id = id;
         }
+
+        
     }
 }
